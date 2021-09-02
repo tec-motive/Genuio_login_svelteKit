@@ -1,5 +1,5 @@
 <script>
-	import Input from '../style/input.svelte';
+	import Input from '../components/loginInput.svelte';
 	const loginInputInfo = [
 		{
 			id: 1,
@@ -39,5 +39,7 @@
 		</div>
 		<a class="text-xs ml-3" href="/">Forgot Password?</a>
 	</div>
-	<button class="bg-buttonColor text-white mx-auto p-1 w-60 border">{@html submitMessage}</button>
+	<button class=" text-black mx-auto p-1 w-60 border hover:bg-buttonColor hover:text-white"
+		>{@html submitMessage}</button
+	>
 </form>
